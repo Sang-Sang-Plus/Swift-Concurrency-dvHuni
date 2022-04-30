@@ -306,4 +306,7 @@ SwiftUI에서의 task modifier는 view가 사라졌을 때 asynchronous code를 
 
 - Swift 5.5에서는 기존에 존재하던 concurrency issues(thread explosion, priority inversion)들을 해결한 새로운 concurrency model을 소개했습니다.
 - `async` 키워드를 통해 function이 asynchronous임을 나타내며, `await` 키워드를 통해 asynchronous function의 결과를 비동기적으로 기다릴 수 있습니다.
-- 시간의 흐름에 따라 asynchronous sequence를 for-try-await loop 구문을 통해 반복 할 수 있습니다.
+- 시간의 흐름에 따라 asynchronous sequence를 for-try-await loop 구문을 통해 반복 할 수 있습니다
+
+
+> 사용된 이미지들은 [Modern Concurrency in Swift](https://www.raywenderlich.com/books/modern-concurrency-in-swift)에 가져온 것임을 밝힙니다.
